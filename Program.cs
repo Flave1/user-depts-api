@@ -30,8 +30,8 @@ builder.Services.AddDbContext<DataContext>(options => options.UseSqlServer(build
 //     );
 
 
-// builder.Services.AddControllers();
-// builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();

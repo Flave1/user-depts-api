@@ -4509,8 +4509,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DevExpress.ExpressApp.EFCore >= 23.2.5",
-      "DevExpress.Persistent.BaseImpl.EFCore >= 23.2.5",
       "Microsoft.AspNetCore.OpenApi >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.4",
@@ -4559,14 +4557,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "DevExpress.ExpressApp.EFCore": {
-            "target": "Package",
-            "version": "[23.2.5, )"
-          },
-          "DevExpress.Persistent.BaseImpl.EFCore": {
-            "target": "Package",
-            "version": "[23.2.5, )"
-          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.4, )"
@@ -4608,25 +4598,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package DevExpress.ExpressApp.EFCore. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "DevExpress.ExpressApp.EFCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package DevExpress.Persistent.BaseImpl.EFCore. No packages exist with this id in source(s): nuget.org",
-      "libraryId": "DevExpress.Persistent.BaseImpl.EFCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

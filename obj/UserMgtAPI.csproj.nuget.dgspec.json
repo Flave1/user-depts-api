@@ -43,14 +43,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "DevExpress.ExpressApp.EFCore": {
-              "target": "Package",
-              "version": "[23.2.5, )"
-            },
-            "DevExpress.Persistent.BaseImpl.EFCore": {
-              "target": "Package",
-              "version": "[23.2.5, )"
-            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.4, )"
